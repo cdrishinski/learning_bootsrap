@@ -1,9 +1,17 @@
 body {
   min-width: 250px;
+  height: 100000px;
 }
 
 #nav-bar {
   background: white;
+}
+
+#nav-bar div:link{
+  color: black;
+}
+#nav-bar div:hover{
+  text-decoration: underline;
 }
 .top-section {
   height: 150px;
@@ -25,6 +33,6 @@ max-width: 250px;
   padding-bottom: 150px;
 }
 
-.bot-navbar {
+#bot-navbar {
   background: #dcdee2;
 }
