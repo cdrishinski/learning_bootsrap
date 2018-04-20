@@ -12,6 +12,14 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+      function focusIt()
+      {
+        var my_search_box = document.getElementById("s-box");
+        my_search_box.focus();
+      }
+      onload = focusIt;
+   </script>
   <div class="row nav-bar" id="nav-bar">
     <div class="col-sm-1 text-muted"><p>About</p></div>
     <div class="col-sm-1 text-muted"><p>Store</p></div>    <div class="col-sm-5"></div>
@@ -19,7 +27,7 @@
     <div class="col-sm-1 text-muted"><p>Images</p></div>
     <div class="col-sm-1 text-muted"><p>Icon</p></div>
     <div class="col-sm-1 text-muted"><p>Bell</p></div>
-    <div class="col-sm-1 text-muted"><p>Sign in</p></div>
+    <div class="col-sm-1 text-muted"><input type="button" id="sign-in" value="Sign In"></div>
   </div>
   <div class=top-section>
   </div>
@@ -40,7 +48,7 @@
       </div>
   </div>
   <nav class="nav-bar sticky-bottom">
-        <div class="row nav-bar bot-navbar" id="nav-bar">
+        <div class="row nav-bar" id="bot-navbar">
           <div class="col-sm-1 text-muted"><p>Advertising</p></div>
           <div class="col-sm-1 text-muted"><p>Business</p></div>  <div class="col-sm-7"></div>
           <div class="col-sm-1 text-muted"><p>Privacy</p></div>
