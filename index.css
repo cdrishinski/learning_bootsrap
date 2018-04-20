@@ -1,0 +1,30 @@
+body {
+  min-width: 250px;
+}
+
+#nav-bar {
+  background: white;
+}
+.top-section {
+  height: 150px;
+  background: white;
+}
+#google-logo {
+  padding:50px 0 10px 0;
+}
+#logo {
+
+max-width: 250px;
+}
+#s-box {
+  width: 500px;
+  margin: 0 auto;
+}
+#search-box-area {
+  font-weight:bold;
+  padding-bottom: 150px;
+}
+
+.bot-navbar {
+  background: #dcdee2;
+}
